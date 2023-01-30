@@ -10,7 +10,7 @@ export default function Card({ card }: props) {
     
     return (
         <>
-            <div className='card' onClick={() => router.push(`details?id=${card.Id}`)}>
+            <div className='card' onClick={() => router.push(`campaign/${card.SeoName}/${card.Id}`)}>
                 <div className="card-image">
                     <img src={card.ImageUrl} />
                     <div className="card-logo">
