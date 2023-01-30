@@ -1,0 +1,14 @@
+.profile-icon {
+    background: #1d1e1c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .profile-svg {
+        padding: 12px;
+        img {
+           height: 16px;
+           width: 17px; 
+        }
+    }
+}

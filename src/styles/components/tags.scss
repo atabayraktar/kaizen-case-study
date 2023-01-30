@@ -1,0 +1,33 @@
+.tag {
+    padding: 6px 10px 6px 6px;
+    max-width: 125px;
+    background: #ffffff;
+    border: 1.5px solid #eceeef;
+    border-radius: 8px;
+    cursor: pointer;
+    .tag-container {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        .icon {
+            display: flex;
+            align-items: center;
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+        .title {
+            min-width: 75px;
+            font-family: "Helvetica";
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #1d1e1c;
+        }
+    }
+}
+.tags {
+    padding-left: 15px;
+    margin-bottom: 20px;
+}

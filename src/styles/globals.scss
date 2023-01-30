@@ -1,0 +1,30 @@
+@import "./mixins.scss";
+@import "./components/button.scss";
+@import "./components/profile-icon.scss";
+@import "./components/header.scss";
+@import "./components/footer.scss";
+@import "./components/tags.scss";
+@import "./components/card.scss";
+@import "./pages/details.scss";
+
+body {
+    //body margin reset
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content-wrapper {
+        max-width: 390px;
+        height: 667px;
+        margin: 0 auto;
+        padding: 0 100px;
+        @include mobile{
+            padding: 0;
+        }
+    }
+}

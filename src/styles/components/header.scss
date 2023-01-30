@@ -1,0 +1,15 @@
+.header {
+    padding: 40px 15px 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    .logo {
+        img {
+            height: 40px;
+            width: 80px;
+        }
+    }
+    .actions {
+        display: flex;
+        gap: 10px;
+    }
+}

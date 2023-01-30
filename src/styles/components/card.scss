@@ -1,0 +1,75 @@
+.card {
+    padding: 5px;
+    background: #ffffff;
+    border: 2px solid #f4f6f5;
+    border-radius: 20px;
+    width: 305px;
+    height: 380px;
+    cursor: pointer;
+    .card-image {
+        position: relative;
+        img {
+            width: 295px;
+            height: 247px;
+            border-radius: 16px 16px 16px 100px;
+        }
+        .card-logo {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            img {
+                width: 55px;
+                height: 55px;
+                border-radius: 27.5px;
+            }
+        }
+        .card-due-date {
+            position: absolute;
+            bottom: 10px;
+            right: 5px;
+            padding: 6px 10px;
+            background: #1d1e1c;
+            border-radius: 26.8182px;
+            font-family: "Helvetica";
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
+            letter-spacing: -0.541667px;
+            color: #ffffff;
+        }
+    }
+    .card-title {
+        margin: 20px 0 35px 0;
+        text-align: center;
+        padding: 0 42px;
+        font-family: "Helvetica";
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.215385px;
+        color: #1d1e1c;
+    }
+    .card-info {
+        margin-bottom: 20px;
+        font-family: "Helvetica";
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+    }
+}
+.cards {
+    min-height: 445px;
+    .swiper-wrapper {
+        justify-content: center;
+    }
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        transition: all 0.4s ease;
+    }
+    .swiper-pagination {
+        margin-top: 15px;
+    }
+}
