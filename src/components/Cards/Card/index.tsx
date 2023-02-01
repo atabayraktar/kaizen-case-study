@@ -24,6 +24,7 @@ export default function Card({ card }: props) {
                 <div className="card-info">
                     Daha Daha
                 </div>
+                <div className='card-background' />
             </div>
         </>
     )
